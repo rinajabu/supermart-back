@@ -3,7 +3,7 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use App\Models\Product;
+use App\Models\product;
 use App\Models\User;
 
 class DatabaseSeeder extends Seeder
@@ -19,6 +19,6 @@ class DatabaseSeeder extends Seeder
         Product::create(["category" => "Dairy", "name" => "Milk", "price" => 3, "description" => "milk from a cow", "picture" => "https://i5.walmartimages.com/asr/3592de4c-2d2d-4285-afbf-f0508775bd58_2.bb23225176016b4d5ce96c4efed80382.jpeg"]);
         Product::create(["category" => "Fruit", "name" => "Red Delicious Apples", "price" => 1, "description" => "apple from a tree", "picture" => "https://images.heb.com/is/image/HEBGrocery/000325189"]);
 
-        User::create(["name" => "testing", "email" => "testing@testing.com", "password" => "testing"]);
+        User::create(["name" => "testing123", "email" => "testing123@testing.com", "password" => "testing123"]);
     }
 }
